@@ -23,6 +23,7 @@ struct ProductListComponent: Component {
     }
     
     func selectView(_ view: ProductListView, item: ListItemViewState) {
+        // send item for detail page
         delegate?.didSelectProduct(item: item)
     }
 }
