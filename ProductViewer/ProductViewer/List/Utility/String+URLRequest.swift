@@ -30,7 +30,6 @@ enum MethodType {
 }
 // Mark:- Constants
 struct Constants {
-    static let methodName = "GET"
     static let kRequestType = "Content-Type"
     static let kContentType = "application/json"
 }
